@@ -1,0 +1,45 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigApplication<config>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.myfinance.backend.config.ConfigApplication",
+            "projectName": "config",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MovementsApplication<movements>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.myfinance.backend.movements.MovementsApplication",
+            "projectName": "movements",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PlanningApplication<planning>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.myfinance.backend.planning.PlanningApplication",
+            "projectName": "planning",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UsersApplication<users>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.myfinance.backend.users.UsersApplication",
+            "projectName": "users",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
