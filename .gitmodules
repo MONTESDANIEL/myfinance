@@ -1,0 +1,15 @@
+[submodule "myfinance-front"]
+	path = myfinance-front
+	url = https://github.com/MONTESDANIEL/myfinance-front.git
+[submodule "myfinance-user"]
+	path = myfinance-user
+	url = https://github.com/MONTESDANIEL/myfinance-user.git
+[submodule "myfinance-movements"]
+	path = myfinance-movements
+	url = https://github.com/MONTESDANIEL/myfinance-movements.git
+[submodule "myfinance-planning"]
+	path = myfinance-planning
+	url = https://github.com/MONTESDANIEL/myfinance-planning.git
+[submodule "myfinance-config"]
+	path = myfinance-config
+	url = https://github.com/MONTESDANIEL/myfinance-config.git
